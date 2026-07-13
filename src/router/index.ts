@@ -82,7 +82,7 @@ const router = createRouter({
 // Update the browser tab title on route changes
 router.afterEach((to) => {
   const defaultTitle = 'My Portfolio';
-  document.title = defaultTitle + ' | ' + (to.meta.title as string);
+  document.title = (to.meta.title as string);
 });
 
 export default router;
