@@ -66,7 +66,7 @@ const routes: Array<RouteRecordRaw> = [
 
 const router = createRouter({
   // Read base URL from environment
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHistory('/my-portfolio/'),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (to.hash) {
@@ -81,8 +81,8 @@ const router = createRouter({
 
 // Update the browser tab title on route changes
 router.afterEach((to) => {
-  const defaultTitle = import.meta.env.VITE_APP_TITLE;
-  document.title = defaultTitle + (to.meta.title as string);
+  const defaultTitle = 'My Portfolio';
+  document.title = defaultTitle + ' | ' + (to.meta.title as string);
 });
 
 export default router;

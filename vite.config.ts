@@ -12,8 +12,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     // Use environment value
-    // base: env.VITE_BASE_URL || '/',
-    base: '/',
+    base: '/my-portfolio/',
 
     plugins: [
       vue(),
