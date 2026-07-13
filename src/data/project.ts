@@ -1,4 +1,35 @@
 import { Project } from "../types/types";
+// Simple helper function
+const img = (filename: string) => `@/assets/images/${filename}`;
+// Import all images directly
+import posImg from "@/assets/images/pos.jpg";
+import tonleImg from "@/assets/images/tonle.jpg";
+import iacImg from "@/assets/images/iac.jpg";
+import iacWebsiteImg from "@/assets/images/iac-website.jpg";
+import bakuImg from "@/assets/images/baku.jpg";
+import hrmsImg from "@/assets/images/hrms.jpg";
+import vmsImg from "@/assets/images/vms.jpg";
+import emsImg from "@/assets/images/ems.jpg";
+import smsImg from "@/assets/images/sms.jpg";
+import smsWebsiteImg from "@/assets/images/sms-website.jpg";
+import wpmsImg from "@/assets/images/wpms.jpg";
+import moeImg from "@/assets/images/moe.jpg";
+import moeWebsiteImg from "@/assets/images/moe-website.jpg";
+import dpsImg from "@/assets/images/dps.jpg";
+import pmsImg from "@/assets/images/pms.jpg";
+import ocmImg from "@/assets/images/ocm.jpg";
+import chakraImg from "@/assets/images/chakra.jpg";
+import maffImg from "@/assets/images/maff.jpg";
+import coreFrontendImg from "@/assets/images/core-frontend.png";
+import coreFrontendHttpImg from "@/assets/images/core-frontend-http.png";
+import portfolioImg from "@/assets/images/portfolio.png";
+import moeWebsiteMockupImg from "@/assets/images/moe-website-mockup.png";
+import moeWebportalMockupImg from "@/assets/images/moe-webportal-mockup.png";
+import wpmsWebportalMockupImg from "@/assets/images/wpms-webportal-mockup.png";
+import smsWebportalMockupImg from "@/assets/images/sms-webportal-mockup.png";
+import smsWebsiteMockupImg from "@/assets/images/sms-website-mockup.png";
+import dpsWebportalMockupImg from "@/assets/images/dps-webportal-mockup.png";
+import maffWebportalMockupImg from "@/assets/images/maff-webportal-mockup.png";
 
 export const projects: Project[] = [
   {
@@ -9,7 +40,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: true,
-    photo: "/images/pos.jpg",
+    photo: posImg,
     year: 2019,
     manageStack: "Develop some modules",
     url: ''
@@ -22,7 +53,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: true,
-    photo: "/images/tonle.jpg",
+    photo: tonleImg,
     year: 2021,
     manageStack: "Develop and lead some modules",
     url: ''
@@ -35,7 +66,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: "/images/iac.jpg",
+    photo: iacImg,
     year: 2023,
     manageStack: "Developed and led the entire project",
     url: ''
@@ -48,7 +79,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: true,
-    photo: "/images/iac-website.jpg",
+    photo: iacWebsiteImg,
     year: 2023,
     manageStack: "Developed and led the entire project",
     url: ''
@@ -60,7 +91,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: "/images/baku.jpg",
+    photo: bakuImg,
     year: 2024,
     manageStack: "Led continuous development and maintained existing features",
     url: ''
@@ -73,7 +104,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: "/images/hrms.jpg",
+    photo: hrmsImg,
     year: 2023,
     manageStack: "Led continuous development and maintained existing features",
     url: ''
@@ -86,7 +117,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: "/images/vms.jpg",
+    photo: vmsImg,
     year: 2024,
     manageStack: "Led continuous development and maintained existing features",
     url: ''
@@ -99,7 +130,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: "/images/ems.jpg",
+    photo: emsImg,
     year: 2024,
     manageStack: "Developed and led the entire project",
     url: ''
@@ -111,7 +142,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: "/images/sms.jpg",
+    photo: smsImg,
     year: 2025,
     manageStack: "Developed and led the entire project",
     url: ''
@@ -124,7 +155,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Nuxt"],
     isFeatured: false,
-    photo: "/images/sms-website.jpg",
+    photo: smsWebsiteImg,
     year: 2025,
     manageStack: "Developed and led the entire project",
     url: ''
@@ -137,7 +168,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: "/images/wpms.jpg",
+    photo: wpmsImg,
     year: 2025,
     manageStack: "Developed and led the entire project",
     url: ''
@@ -150,7 +181,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: "/images/moe.jpg",
+    photo: moeImg,
     year: 2024,
     manageStack: "Developed and led the entire project",
     url: ''
@@ -163,7 +194,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Nuxt"],
     isFeatured: false,
-    photo: "/images/moe-website.jpg",
+    photo: moeWebsiteImg,
     year: 2025,
     manageStack: "Developed and led the entire project",
     url: ''
@@ -176,7 +207,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: "/images/dps.jpg",
+    photo: dpsImg,
     year: 2025,
     manageStack: "Developed and led the entire project",
     url: ''
@@ -189,7 +220,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: "/images/pms.jpg",
+    photo: pmsImg,
     year: 2025,
     manageStack: "Developed and led the entire project",
     url: ''
@@ -202,7 +233,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: "/images/ocm.jpg",
+    photo: ocmImg,
     year: 2026,
     manageStack: "Developed and led the entire project",
     url: ''
@@ -215,7 +246,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: "/images/chakra.jpg",
+    photo: chakraImg,
     year: 2025,
     manageStack: "Developed and led the entire project",
     url: ''
@@ -228,7 +259,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: "/images/maff.jpg",
+    photo: maffImg,
     year: 2026,
     manageStack: "Developed and led the entire project",
     url: ''
@@ -241,7 +272,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: "/images/core-frontend.png",
+    photo: coreFrontendImg,
     year: 2023,
     manageStack: "Developed Entire Project",
     url: ''
@@ -254,7 +285,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: "/images/core-frontend-http.png",
+    photo: coreFrontendHttpImg,
     year: 2024,
     manageStack: "Developed Entire Project",
     url: ''
@@ -267,7 +298,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["Vue"],
     isFeatured: false,
-    photo: "/images/portfolio.png",
+    photo: portfolioImg,
     year: 2026,
     manageStack: "Developed Entire Project",
     url: ''
@@ -280,7 +311,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["ui/ux"],
     isFeatured: false,
-    photo: "/images/moe-website-mockup.png",
+    photo: moeWebsiteMockupImg,
     year: 2026,
     manageStack: "Developed Entire Project",
     url: 'https://www.figma.com/proto/GXfqyCYITsxfaN1zK93NHy/MOE-website-Mockup?node-id=1-115&t=ueGcqNhUZh91ZWck-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&fuid=693283367132054474'
@@ -293,7 +324,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["ui/ux"],
     isFeatured: false,
-    photo: "/images/moe-webportal-mockup.png",
+    photo: moeWebportalMockupImg,
     year: 2026,
     manageStack: "Developed Entire Project",
     url: 'https://www.figma.com/proto/98icdcUmzDxBERy0Pa299l/MOE-Web-Portal?node-id=1-136&starting-point-node-id=1%3A136&scaling=contain&content-scaling=fixed'
@@ -305,7 +336,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["ui/ux"],
     isFeatured: false,
-    photo: "/images/wpms-webportal-mockup.png",
+    photo: wpmsWebportalMockupImg,
     year: 2026,
     manageStack: "Developed Entire Project",
     url: 'https://www.figma.com/proto/04vOQhdKDKVRm5PcM8kLGR/School-Management-System-UX-UI?node-id=65-2353&p=f&t=1RHqeSY1Gk8Rabk7-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A3'
@@ -317,7 +348,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["ui/ux"],
     isFeatured: false,
-    photo: "/images/sms-webportal-mockup.png",
+    photo: smsWebportalMockupImg,
     year: 2026,
     manageStack: "Developed Entire Project",
     url: 'https://www.figma.com/proto/04vOQhdKDKVRm5PcM8kLGR/School-Management-System-UX-UI?node-id=65-2353&p=f&t=1RHqeSY1Gk8Rabk7-0&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A3'
@@ -330,7 +361,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["ui/ux"],
     isFeatured: false,
-    photo: "/images/sms-website-mockup.png",
+    photo: smsWebsiteMockupImg,
     year: 2026,
     manageStack: "Developed Entire Project",
     url: 'https://www.figma.com/proto/h8JXMMx1B78QU9Z8czL7j5/SMS-Website?node-id=0-1'
@@ -343,7 +374,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["ui/ux"],
     isFeatured: false,
-    photo: "/images/dps-webportal-mockup.png",
+    photo: dpsWebportalMockupImg,
     year: 2026,
     manageStack: "Developed Entire Project",
     url: 'https://www.figma.com/proto/A7SXfAGUjELav1bk9fM5Mb/DPS%E2%80%8B-Prototype-Demo?node-id=2012-225134&t=SmqgaRRI4mu7eC58-0&scaling=contain&content-scaling=fixed&page-id=870%3A37366&starting-point-node-id=3465%3A41169'
@@ -356,7 +387,7 @@ export const projects: Project[] = [
     category: "frontend",
     techStack: ["ui/ux"],
     isFeatured: false,
-    photo: "/images/maff-webportal-mockup.png",
+    photo: maffWebportalMockupImg,
     year: 2026,
     manageStack: "Developed Entire Project",
     url: 'https://www.figma.com/proto/g7xTUiZWd3VHPijFGCGDt2/MAFF?node-id=25-452&p=f&t=sSXbOXFo1OyklM7f-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=25%3A452'
