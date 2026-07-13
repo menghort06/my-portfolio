@@ -9,7 +9,7 @@
     "preview": "vite preview --mode prod",
     "clean": "rm -rf dist server.js",
     "lint": "tsc --noEmit",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && cp dist/index.html dist/404.html && gh-pages -d dist -f"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
