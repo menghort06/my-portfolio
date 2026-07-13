@@ -8,12 +8,12 @@ export default defineConfig(({ mode }) => {
   // dev  -> .env.dev
   // prod -> .env.prod
   const env = loadEnv(mode, process.cwd(), '');
-  console.log(`🚀 Running in ${mode} mode`);
-  console.log(`📁 Base URL: ${env.VITE_BASE_URL || '/'}`);
+
 
   return {
     // Use environment value
-    base: env.VITE_BASE_URL || '/',
+    // base: env.VITE_BASE_URL || '/',
+    base: '/',
 
     plugins: [
       vue(),
@@ -22,14 +22,14 @@ export default defineConfig(({ mode }) => {
 
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, '.'),
+        '@': path.resolve(__dirname, './src'),
       },
     },
 
     server: {
       host: '0.0.0.0',
       port: 3000,
-      
+
     },
   };
 });

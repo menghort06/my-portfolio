@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { Mail, Linkedin, Github, MapPin, Phone, Contact } from 'lucide-vue-next';
 import { personalInfo } from '../../data/home';
-import { getCurrentMapLink, getMapUrl } from '@/src/composables/useMap';
-import { contactList } from '@/src/data/contact';
+import { contactList } from '../../data/contact';
 import ButtonComponent from '../ui/ButtonComponent.vue';
 import { useRouter } from 'vue-router';
+import { getCurrentMapLink, getMapUrl } from '../../composables/useMap.ts';
 
 const mapLink = getCurrentMapLink.value;
 const mapUrl = getMapUrl;

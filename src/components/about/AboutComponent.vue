@@ -2,8 +2,8 @@
 import { User, Laptop, Zap, ShieldCheck, MapPin, Network, Activity, Lock, Users, Code2, Handshake, Sparkles, BrainCircuit, BookOpen, BookSearch, BugOff, BookUser } from 'lucide-vue-next';
 import { personalInfo } from '../../data/home.ts';
 import JourneyComponent from '../journey/JourneyComponent.vue';
-import { getCurrentMapLink } from '@/src/composables/useMap.ts';
-import { About } from '@/src/data/about.ts';
+import { getCurrentMapLink } from '../../composables/useMap.ts';
+import { About } from '../../data/about.ts';
 
 const iconMap: Record<string, any> = {
   Laptop,

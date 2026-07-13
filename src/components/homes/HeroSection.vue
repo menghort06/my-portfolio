@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Sparkles } from 'lucide-vue-next';
 import { personalInfo } from '../../data/home';
-
+import photo from "@/assets/images/menghort-photo.png"
 
 </script>
 
@@ -25,7 +25,7 @@ import { personalInfo } from '../../data/home';
       <div class="my-4">
           <img
             class="w-45 h-45 ring-2 ring-emerald-200/40 shadow-2xl rounded-full object-cover object-top mx-auto"
-            src="/images/menghort-photo.png"
+            :src="photo"
             alt="photo"
           >
       </div>

@@ -6,6 +6,7 @@ import { useTheme } from '../../composables/useTheme';
 import { useScroll } from '../../composables/useScroll';
 import { navItems } from '../../data/header';
 import { NavItem } from '@/src/types/nav-item';
+import photo from "@/assets/images/menghort.png";
   
 const { darkMode, toggleDarkMode } = useTheme();
 const { isMobileMenuOpen, scrolled } = useScroll();
@@ -94,7 +95,7 @@ onMounted(() => {
           <button @click="navigateRoute({url: '/', id: 'home', label: 'Home'})"
             class="flex items-center gap-1 text-base font-display uppercase font-bold tracking-tight cursor-pointer text-zinc-900 dark:text-white"
           > 
-            <img src="/images/menghort.png" alt="Hong Menghort" class="w-16 h-16 rounded-full object-cover">
+            <img :src="photo" alt="Hong Menghort" class="w-16 h-16 rounded-full object-cover">
             Hong Menghort
           </button>
         </div>
