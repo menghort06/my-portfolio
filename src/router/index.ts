@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory, createWebHistory, RouteRecordRaw } from 'vue-router';
+import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 import MainLayout from '../layouts/MainLayout.vue';
 import HomeView from '../views/HomeView.vue';
 
@@ -66,7 +66,7 @@ const routes: Array<RouteRecordRaw> = [
 
 const router = createRouter({
   // Read base URL from environment
-  history: createWebHistory('/my-portfolio/'),
+  history: createWebHistory(),
   routes,
   scrollBehavior(to, from, savedPosition) {
     if (to.hash) {

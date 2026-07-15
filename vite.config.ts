@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     // Use environment value
-    base: '/my-portfolio/',
+    base: '/',
 
     plugins: [
       vue(),
