@@ -33,105 +33,28 @@ import maffWebportalMockupImg from "@/assets/images/maff-webportal-mockup.png";
 
 export const projects: Project[] = [
   {
-    id: "1",
-    name: "POS System",
+    id: "16",
+    name: "OCM System",
     description:
-      "(POS) System that supports real time sales transactions, inventory management, customer records, and business reporting. The platform was designed to improve operational efficiency, provide accurate business insights, and deliver a seamless user experience for both staff and management.",
-    category: "frontend",
-    techStack: ["Angular"],
-    isFeatured: true,
-    photo: posImg,
-    year: 2019,
-    manageStack: "Develop some modules",
-    url: ''
-  },
-  {
-    id: "2",
-    name: "Tonle System",
-    description:
-      ` The General Insurance Information System is a web based platform that serves as an essential strategic tool for managing and analyzing data within the general insurance industry. The system enables insurance companies and related stakeholders to efficiently collect, store, and process information related to insurance policies, claims, and customer data.`,
-    category: "frontend",
-    techStack: ["Angular"],
-    isFeatured: true,
-    photo: tonleImg,
-    year: 2021,
-    manageStack: "Develop and lead some modules",
-    url: ''
-  },
-  {
-    id: "3",
-    name: "IAC Web Portal",
-    description:
-      "The Insurance Association Web Portal is a centralized platform provided by the Insurance Association for all registered insurance companies. The system allows member companies to access, download, and submit required documents through an online platform with high security and efficiency.",
+      "Office of the Council of Ministers supporting employee management, attendance tracking, document workflows, organizational structures, scheduling, mission management, and secure authentication. The system helps streamline government operations, improve efficiency, and support data driven administration through centralized digital processes.",
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: iacImg,
-    year: 2023,
+    photo: ocmImg,
+    year: 2026,
     manageStack: "Developed and led the entire project",
     url: ''
   },
   {
-    id: "4",
-    name: "IAC Website",
+    id: "18",
+    name: "MAFF System",
     description:
-      "Insurance Association of Cambodia (IAC) is a non profit trade association representing the interests of the insurance industry and working to strengthen and promote the overall development and growth of insurance sector in Cambodia.",
-    category: "frontend",
-    techStack: ["Angular"],
-    isFeatured: true,
-    photo: iacWebsiteImg,
-    year: 2023,
-    manageStack: "Developed and led the entire project",
-    url: ''
-  },
-  {
-    id: "5",
-    name: "BAKU System",
-    description: "Web based platform that serves as an essential strategic tool for managing and analyzing data  user management, dashboard, report, payment, customer care, enrolment, push notification, subscription",
+      "Ministry of Agricultures, Forestry and Fisheries to centralize farmer data, agricultural services, land and product information, knowledge resources, reporting, dynamic translate, and stakeholder communication (chat). The system enables data driven decision making, improves operational efficiency, and supports the digital transformation of agricultural services.",
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: bakuImg,
-    year: 2024,
-    manageStack: "Led continuous development and maintained existing features",
-    url: ''
-  },
-  {
-    id: "6",
-    name: "HRMS System",
-    description:
-      "A system that manage user management, employee attendant, leave management, schedule management, report, payroll, asset, working overtime, sale activity, appraisal, dashboard, report",
-    category: "frontend",
-    techStack: ["Angular"],
-    isFeatured: false,
-    photo: hrmsImg,
-    year: 2023,
-    manageStack: "Led continuous development and maintained existing features",
-    url: ''
-  },
-  {
-    id: "7",
-    name: "VMS System",
-    description:
-      "A system that provides location tracking, status monitoring, and behavior monitoring of vessels over a two way fully acknowledged satellite cellular data communications with a relatively low data rate and near real time data transfer.",
-    category: "frontend",
-    techStack: ["Angular"],
-    isFeatured: false,
-    photo: vmsImg,
-    year: 2024,
-    manageStack: "Led continuous development and maintained existing features",
-    url: ''
-  },
-  {
-    id: "8",
-    name: "EMS System",
-    description:
-      "A system that manage on examination setup, question bank, student template format, generate table, exam result, report, exam history, user management, realtime to start and end the exam, auto submit",
-    category: "frontend",
-    techStack: ["Angular"],
-    isFeatured: false,
-    photo: emsImg,
-    year: 2024,
+    photo: maffImg,
+    year: 2026,
     manageStack: "Developed and led the entire project",
     url: ''
   },
@@ -174,16 +97,15 @@ export const projects: Project[] = [
     url: ''
   },
   {
-    id: "12",
-    name: "MOE System",
-    description:
-      "Ministry of Environment of Cambodia, supporting employee management, attendance tracking, document workflows, organizational structures, scheduling, mission management, and secure authentication. The system helps streamline government operations, improve efficiency, and support data driven administration through centralized digital processes.",
+    id: "5",
+    name: "BAKU System",
+    description: "Web based platform that serves as an essential strategic tool for managing and analyzing data  user management, dashboard, report, payment, customer care, enrolment, push notification, subscription",
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: moeImg,
+    photo: bakuImg,
     year: 2024,
-    manageStack: "Developed and led the entire project",
+    manageStack: "Led continuous development and maintained existing features",
     url: ''
   },
   {
@@ -226,19 +148,6 @@ export const projects: Project[] = [
     url: ''
   },
   {
-    id: "16",
-    name: "OCM System",
-    description:
-      "Office of the Council of Ministers supporting employee management, attendance tracking, document workflows, organizational structures, scheduling, mission management, and secure authentication. The system helps streamline government operations, improve efficiency, and support data driven administration through centralized digital processes.",
-    category: "frontend",
-    techStack: ["Angular"],
-    isFeatured: false,
-    photo: ocmImg,
-    year: 2026,
-    manageStack: "Developed and led the entire project",
-    url: ''
-  },
-  {
     id: "17",
     name: "CHAKRA System",
     description:
@@ -251,16 +160,68 @@ export const projects: Project[] = [
     manageStack: "Developed and led the entire project",
     url: ''
   },
+  // {
+  //   id: "21",
+  //   name: "Portfolio",
+  //   description:
+  //     "Designed and developed personal portfolio website using Vue and Tailwind CSS to showcase professional experience, technical skills, projects, and achievements. Implemented responsive layouts, reusable components, dynamic content management, dark mode support. The application highlights my journey as a Frontend Engineer while demonstrating best practices in UI development, component design, performance optimization, and maintainable frontend architecture.",
+  //   category: "frontend",
+  //   techStack: ["Vue"],
+  //   isFeatured: false,
+  //   photo: portfolioImg,
+  //   year: 2025,
+  //   manageStack: "Developed Entire Project",
+  //   url: ''
+  // },
   {
-    id: "18",
-    name: "MAFF System",
+    id: "20",
+    name: "Core Frontend HTTP System",
     description:
-      "Ministry of Agricultures, Forestry and Fisheries to centralize farmer data, agricultural services, land and product information, knowledge resources, reporting, dynamic translate, and stakeholder communication (chat). The system enables data driven decision making, improves operational efficiency, and supports the digital transformation of agricultural services.",
+      "Architected a reusable HTTP infrastructure layer for enterprise applications, including authentication guards, JWT token management, request/response interceptors, centralized API services, error handling mechanisms, loading indicators, and standardized response processing. The solution ensured secure user authentication, seamless backend communication, consistent error messaging, and simplified API integration, enabling teams to develop features faster while maintaining code quality and application reliability.",
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: maffImg,
-    year: 2026,
+    photo: coreFrontendHttpImg,
+    year: 2024,
+    manageStack: "Developed Entire Project",
+    url: ''
+  },
+  {
+    id: "7",
+    name: "VMS System",
+    description:
+      "A system that provides location tracking, status monitoring, and behavior monitoring of vessels over a two way fully acknowledged satellite cellular data communications with a relatively low data rate and near real time data transfer.",
+    category: "frontend",
+    techStack: ["Angular"],
+    isFeatured: false,
+    photo: vmsImg,
+    year: 2024,
+    manageStack: "Led continuous development and maintained existing features",
+    url: ''
+  },
+  {
+    id: "8",
+    name: "EMS System",
+    description:
+      "A system that manage on examination setup, question bank, student template format, generate table, exam result, report, exam history, user management, realtime to start and end the exam, auto submit",
+    category: "frontend",
+    techStack: ["Angular"],
+    isFeatured: false,
+    photo: emsImg,
+    year: 2024,
+    manageStack: "Developed and led the entire project",
+    url: ''
+  },
+  {
+    id: "12",
+    name: "MOE System",
+    description:
+      "Ministry of Environment of Cambodia, supporting employee management, attendance tracking, document workflows, organizational structures, scheduling, mission management, and secure authentication. The system helps streamline government operations, improve efficiency, and support data driven administration through centralized digital processes.",
+    category: "frontend",
+    techStack: ["Angular"],
+    isFeatured: false,
+    photo: moeImg,
+    year: 2024,
     manageStack: "Developed and led the entire project",
     url: ''
   },
@@ -278,29 +239,68 @@ export const projects: Project[] = [
     url: ''
   },
   {
-    id: "20",
-    name: "Core Frontend HTTP System",
+    id: "3",
+    name: "IAC Web Portal",
     description:
-      "Architected a reusable HTTP infrastructure layer for enterprise applications, including authentication guards, JWT token management, request/response interceptors, centralized API services, error handling mechanisms, loading indicators, and standardized response processing. The solution ensured secure user authentication, seamless backend communication, consistent error messaging, and simplified API integration, enabling teams to develop features faster while maintaining code quality and application reliability.",
+      "The Insurance Association Web Portal is a centralized platform provided by the Insurance Association for all registered insurance companies. The system allows member companies to access, download, and submit required documents through an online platform with high security and efficiency.",
     category: "frontend",
     techStack: ["Angular"],
     isFeatured: false,
-    photo: coreFrontendHttpImg,
-    year: 2024,
-    manageStack: "Developed Entire Project",
+    photo: iacImg,
+    year: 2023,
+    manageStack: "Developed and led the entire project",
     url: ''
   },
   {
-    id: "21",
-    name: "Portfolio",
+    id: "4",
+    name: "IAC Website",
     description:
-      "Designed and developed personal portfolio website using Vue and Tailwind CSS to showcase professional experience, technical skills, projects, and achievements. Implemented responsive layouts, reusable components, dynamic content management, dark mode support. The application highlights my journey as a Frontend Engineer while demonstrating best practices in UI development, component design, performance optimization, and maintainable frontend architecture.",
+      "Insurance Association of Cambodia (IAC) is a non profit trade association representing the interests of the insurance industry and working to strengthen and promote the overall development and growth of insurance sector in Cambodia.",
     category: "frontend",
-    techStack: ["Vue"],
+    techStack: ["Angular"],
+    isFeatured: true,
+    photo: iacWebsiteImg,
+    year: 2023,
+    manageStack: "Developed and led the entire project",
+    url: ''
+  },
+  {
+    id: "6",
+    name: "HRMS System",
+    description:
+      "A system that manage user management, employee attendant, leave management, schedule management, report, payroll, asset, working overtime, sale activity, appraisal, dashboard, report",
+    category: "frontend",
+    techStack: ["Angular"],
     isFeatured: false,
-    photo: portfolioImg,
-    year: 2026,
-    manageStack: "Developed Entire Project",
+    photo: hrmsImg,
+    year: 2023,
+    manageStack: "Led continuous development and maintained existing features",
+    url: ''
+  },
+  {
+    id: "2",
+    name: "Tonle System",
+    description:
+      ` The General Insurance Information System is a web based platform that serves as an essential strategic tool for managing and analyzing data within the general insurance industry. The system enables insurance companies and related stakeholders to efficiently collect, store, and process information related to insurance policies, claims, and customer data.`,
+    category: "frontend",
+    techStack: ["Angular"],
+    isFeatured: true,
+    photo: tonleImg,
+    year: 2021,
+    manageStack: "Develop and lead some modules",
+    url: ''
+  },
+  {
+    id: "1",
+    name: "POS System",
+    description:
+      "(POS) System that supports real time sales transactions, inventory management, customer records, and business reporting. The platform was designed to improve operational efficiency, provide accurate business insights, and deliver a seamless user experience for both staff and management.",
+    category: "frontend",
+    techStack: ["Angular"],
+    isFeatured: true,
+    photo: posImg,
+    year: 2019,
+    manageStack: "Develop some modules",
     url: ''
   },
   {
