@@ -42,7 +42,7 @@ export const projects: Project[] = [
     isFeatured: false,
     photo: ocmImg,
     year: 2026,
-    manageStack: "Developed and led the entire project",
+    manageStack: "Developed and lead the entire project",
     url: ''
   },
   {
@@ -55,7 +55,7 @@ export const projects: Project[] = [
     isFeatured: false,
     photo: maffImg,
     year: 2026,
-    manageStack: "Developed and led the entire project",
+    manageStack: "Developed and lead the entire project",
     url: ''
   },
   {
@@ -67,7 +67,7 @@ export const projects: Project[] = [
     isFeatured: false,
     photo: smsImg,
     year: 2025,
-    manageStack: "Developed and led the entire project",
+    manageStack: "Developed and lead the entire project",
     url: ''
   },
   {
@@ -80,7 +80,7 @@ export const projects: Project[] = [
     isFeatured: false,
     photo: smsWebsiteImg,
     year: 2025,
-    manageStack: "Developed and led the entire project",
+    manageStack: "Developed and lead the entire project",
     url: ''
   },
   {
@@ -93,7 +93,7 @@ export const projects: Project[] = [
     isFeatured: false,
     photo: wpmsImg,
     year: 2025,
-    manageStack: "Developed and led the entire project",
+    manageStack: "Developed and lead the entire project",
     url: ''
   },
   {
@@ -105,7 +105,7 @@ export const projects: Project[] = [
     isFeatured: false,
     photo: bakuImg,
     year: 2024,
-    manageStack: "Led continuous development and maintained existing features",
+    manageStack: "lead continuous development and maintained existing features",
     url: ''
   },
   {
@@ -118,7 +118,7 @@ export const projects: Project[] = [
     isFeatured: false,
     photo: moeWebsiteImg,
     year: 2025,
-    manageStack: "Developed and led the entire project",
+    manageStack: "Developed and lead the entire project",
     url: ''
   },
   {
@@ -131,7 +131,7 @@ export const projects: Project[] = [
     isFeatured: false,
     photo: dpsImg,
     year: 2025,
-    manageStack: "Developed and led the entire project",
+    manageStack: "Developed and lead the entire project",
     url: ''
   },
   {
@@ -144,7 +144,7 @@ export const projects: Project[] = [
     isFeatured: false,
     photo: pmsImg,
     year: 2025,
-    manageStack: "Developed and led the entire project",
+    manageStack: "Developed and lead the entire project",
     url: ''
   },
   {
@@ -157,7 +157,7 @@ export const projects: Project[] = [
     isFeatured: false,
     photo: chakraImg,
     year: 2025,
-    manageStack: "Developed and led the entire project",
+    manageStack: "Developed and lead the entire project",
     url: ''
   },
   // {
@@ -196,7 +196,7 @@ export const projects: Project[] = [
     isFeatured: false,
     photo: vmsImg,
     year: 2024,
-    manageStack: "Led continuous development and maintained existing features",
+    manageStack: "Lead continuous development and maintained existing features",
     url: ''
   },
   {
@@ -209,7 +209,7 @@ export const projects: Project[] = [
     isFeatured: false,
     photo: emsImg,
     year: 2024,
-    manageStack: "Developed and led the entire project",
+    manageStack: "Developed and lead the entire project",
     url: ''
   },
   {
@@ -222,7 +222,7 @@ export const projects: Project[] = [
     isFeatured: false,
     photo: moeImg,
     year: 2024,
-    manageStack: "Developed and led the entire project",
+    manageStack: "Developed and lead the entire project",
     url: ''
   },
   {
@@ -248,7 +248,7 @@ export const projects: Project[] = [
     isFeatured: false,
     photo: iacImg,
     year: 2023,
-    manageStack: "Developed and led the entire project",
+    manageStack: "Developed and lead the entire project",
     url: ''
   },
   {
@@ -261,7 +261,7 @@ export const projects: Project[] = [
     isFeatured: true,
     photo: iacWebsiteImg,
     year: 2023,
-    manageStack: "Developed and led the entire project",
+    manageStack: "Developed and lead the entire project",
     url: ''
   },
   {
@@ -274,7 +274,7 @@ export const projects: Project[] = [
     isFeatured: false,
     photo: hrmsImg,
     year: 2023,
-    manageStack: "Led continuous development and maintained existing features",
+    manageStack: "Lead continuous development and maintained existing features",
     url: ''
   },
   {

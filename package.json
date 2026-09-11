@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --mode dev --port=3000 --host=0.0.0.0",
+    "dev": "vite --mode dev --host=0.0.0.0",
     "build": "vite build --mode prod",
     "preview": "vite preview --mode prod",
     "clean": "rm -rf dist server.js",
