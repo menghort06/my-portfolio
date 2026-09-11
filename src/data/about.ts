@@ -52,7 +52,7 @@ export const About = {
         },
         {
             icon: 'Code2',
-            title: 'Clean, Maintainable Code',
+            title: 'Clean Maintainable Code',
             description: `Code should be easy to read and easy to hand off, since someone else will maintain it eventually. I keep things simple, organized, and well documented in everything I build. This discipline was core to scaling the Examination Management System's codebase under strict Agile timelines without sacrificing long term maintainability.`
         },
         {

@@ -5,14 +5,14 @@ export const journeyEvents: JourneyEvent[] = [
     id: 'w1',
     year: '2023',
     type: 'work',
-    title: 'Senior Frontend Engineer & Acting Frontend Manager',
+    title: 'Senior Frontend & Team Lead',
     organization: 'Ecoinsoft Solution',
-    period: '2023 – Present',
+    period: '2023 - 30 June 2026',
     icon: 'Briefcase',
     description:
-      'Led frontend development initiatives across enterprise projects, assumed technical ownership during team transitions, and mentored junior and mid-level developers. Designed scalable architectures, delivered reusable component systems, and collaborated with stakeholders to align technical solutions with business goals.',
+      'Lean and mentor frontend development initiatives across enterprise projects, assumed technical ownership during team transitions, and mentored junior and mid-level developers. Designed scalable architectures, delivered reusable component systems, and collaborated with stakeholders to align technical solutions with business goals.',
     responsibilities: [
-      "Led frontend development initiatives and assumed ownership of projects during team transitions, ensuring successful delivery and continuity.",
+      "Lead and mentor frontend development initiatives and assumed ownership of projects during team transitions, ensuring successful delivery and continuity.",
       "Designed scalable frontend architectures and provided technical solutions for complex business requirements.",
       "Developed core application features, reusable components, and dynamic templates to accelerate development and reduce code duplication.",
       "Collaborated with stakeholders, business teams, and designers to gather requirements, conduct project demonstrations, and align technical solutions with business goals.",
@@ -22,7 +22,7 @@ export const journeyEvents: JourneyEvent[] = [
       "Translated UI/UX designs into responsive, accessible, and user friendly enterprise applications."
     ],
     achievements: [
-      "Successfully led and delivered multiple enterprise web applications from development through production deployment.",
+      "Successfully lead and delivered multiple enterprise web applications from development through production deployment.",
       "Took ownership of projects after leadership transitions, ensuring smooth handover and continuous product enhancement.",
       "Established reusable component libraries and dynamic frameworks that significantly reduced development effort and improved consistency.",
       "Improved team efficiency through technical leadership, documentation standards, and streamlined development processes.",
@@ -35,7 +35,7 @@ export const journeyEvents: JourneyEvent[] = [
     type: 'work',
     title: 'Frontend Developer',
     organization: 'Ecoinsoft Solution',
-    period: '2021 – 2023',
+    period: '2021 - 2023',
     icon: 'Briefcase',
     description:
       'Collaborated with senior engineers to deliver enterprise web applications. Developed responsive UIs, integrated RESTful APIs, and participated in code reviews, testing, and deployment cycles.',

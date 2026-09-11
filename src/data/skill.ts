@@ -69,7 +69,7 @@ export const skills: Skill[] = [
   { name: "MongoDB", category: "other", icon: "MongoDBIcon" },
   { name: "Node.js", category: "other", icon: "NodeJSIcon" },
   { name: "Express.js", category: "other", icon: "ExpressJSIcon" },
-  { name: "nest.js", category: "other", icon: "NestJSIcon" },
+  { name: "nestJS", category: "other", icon: "NestJSIcon" },
   { name: "Microsoft Access", category: "other", icon: "MSAccessIcon" },
   { name: "Power BI", category: "other", icon: "PowerBIIcon" },
 ];
@@ -84,7 +84,7 @@ export const skillsSection = {
     },
     {
       description: `
-      My core strengths lie in Angular, Vue, React, Javascript, TypeScript, and modern frontend development, where I build responsive, high performance applications that remain maintainable as they grow. I have experience creating reusable component architectures, integrating complex backend services, implementing multilingual systems, optimizing application performance, and developing intuitive user interfaces that balance functionality with usability.
+      My core strengths lie in Angular, Vue, React, Javascript, TypeScript, Node.js, and modern frontend development, where I build responsive, high performance applications that remain maintainable as they grow. I have experience creating reusable component architectures, integrating complex backend services, implementing multilingual systems, optimizing application performance, and developing intuitive user interfaces that balance functionality with usability.
       `
     },
     {
