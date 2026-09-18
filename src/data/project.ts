@@ -38,7 +38,7 @@ export const projects: Project[] = [
     description:
       "Office of the Council of Ministers supporting employee management, attendance tracking, document workflows, organizational structures, scheduling, mission management, and secure authentication. The system helps streamline government operations, improve efficiency, and support data driven administration through centralized digital processes.",
     category: "frontend",
-    techStack: ["Angular"],
+    techStack: ["React"],
     isFeatured: false,
     photo: ocmImg,
     year: 2026,
@@ -51,7 +51,7 @@ export const projects: Project[] = [
     description:
       "Ministry of Agricultures, Forestry and Fisheries to centralize farmer data, agricultural services, land and product information, knowledge resources, reporting, dynamic translate, and stakeholder communication (chat). The system enables data driven decision making, improves operational efficiency, and supports the digital transformation of agricultural services.",
     category: "frontend",
-    techStack: ["Angular"],
+    techStack: ["React"],
     isFeatured: false,
     photo: maffImg,
     year: 2026,
@@ -89,7 +89,7 @@ export const projects: Project[] = [
     description:
       "Developed and maintained frontend features for a Water Pollution Monitoring System, enabling users to monitor water quality metrics, visualize environmental data, and access real time monitoring information through interactive dashboards and reporting tools.",
     category: "frontend",
-    techStack: ["Angular"],
+    techStack: ["Vue"],
     isFeatured: false,
     photo: wpmsImg,
     year: 2025,
@@ -153,7 +153,7 @@ export const projects: Project[] = [
     description:
       "A digital environmental platform manage users, group, family, dashboard, report, donation budget for anything, and learn about sustainability, waste management, recycling, plants, and tree conservation while encouraging community participation and positive environmental actions.",
     category: "frontend",
-    techStack: ["Angular"],
+    techStack: ["React"],
     isFeatured: false,
     photo: chakraImg,
     year: 2025,
@@ -296,7 +296,7 @@ export const projects: Project[] = [
     description:
       "(POS) System that supports real time sales transactions, inventory management, customer records, and business reporting. The platform was designed to improve operational efficiency, provide accurate business insights, and deliver a seamless user experience for both staff and management.",
     category: "frontend",
-    techStack: ["Angular"],
+    techStack: ["Vue"],
     isFeatured: true,
     photo: posImg,
     year: 2019,

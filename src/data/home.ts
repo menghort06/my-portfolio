@@ -6,7 +6,7 @@ export const personalInfo = {
   photo: "",
   title: "Senior Frontend",
   aboutText:
-    "I am a passionate Frontend with over 7 years of experience building high quality, responsive web interfaces. I specialize in modern JavaScript frameworks (Vue, React, Angular) and utility first styling (Tailwind CSS). My goal is to build digital products that combine beautiful, fluid design with solid engineering and optimal performance.",
+    "I am a passionate Frontend with over 6 years of experience building high quality, responsive web interfaces. I specialize in modern JavaScript frameworks (Vue, React, Angular) and utility first styling (Tailwind CSS). My goal is to build digital products that combine beautiful, fluid design with solid engineering and optimal performance.",
   resumeUrl: "#",
   description:
     "With hands on experience in building enterprise systems and UI focused digital products, I specialize in developing scalable, maintainable, and high performance frontend solutions. I work extensively with Angular, Vue, and modern frontend ecosystems to transform complex business requirements into clean, intuitive, and accessible user interfaces. My focus is on writing structured, reusable code and delivering seamless user experiences that perform reliably across different devices and environments.",
@@ -49,7 +49,7 @@ export const personalInfo = {
   ],
   details: [
     {
-      description: `With hands on experience building enterprise systems and user focused digital products, I specialize in developing scalable, maintainable, and high performance web applications that solve real business challenges. My expertise spans Angular, Vue, React, Javascript , TypeScript, Node.js, NestJS and modern frontend ecosystems, enabling me to transform complex requirements into intuitive, accessible, and engaging user experiences.`
+      description: `With hands on experience building enterprise systems and user focused digital products, I specialize in developing scalable, maintainable, and high performance web applications that solve real business challenges. My expertise with Angular, Vue, React, JavaScript , TypeScript, Node.js, NestJS, MySQL, PostgreSQL and modern frontend ecosystems, enabling me to transform complex requirements into intuitive, accessible, and engaging user experiences.`
     },
     {
       description: `I am passionate about clean code, maintainable architecture, and continuous improvement. Whether optimizing application performance, improving accessibility, refining user journeys, troubleshooting critical issues, or introducing new technologies and development practices, I focus on delivering solutions that are reliable, scalable, and easy to evolve over time.`
