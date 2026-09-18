@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { User, Laptop, Zap, ShieldCheck, MapPin, Network, Activity, Lock, Users, Code2, Handshake, Sparkles, BrainCircuit, BookOpen, BookSearch, BugOff, BookUser } from 'lucide-vue-next';
+import { User, Laptop, Zap, ShieldCheck, MapPin, Network, Activity, Lock, Users, Code2, Handshake, Sparkles, BrainCircuit, BookOpen, BookSearch, BugOff, BookUser, ExternalLink, FileText } from 'lucide-vue-next';
 import { personalInfo } from '../../data/home.ts';
 import JourneyComponent from '../journey/JourneyComponent.vue';
 import { getCurrentMapLink } from '../../composables/useMap.ts';
@@ -88,16 +88,63 @@ const mapLink = getCurrentMapLink;
                  "I craft digital experiences that are not just beautiful to look at, but a joy to use. Code is my craft and I take pride in every detail."
                </p>
    
-               <div class="grid grid-2">
+              <div class="grid grid-2">
                  <div class="p-4 rounded-xl bg-zinc-50/40 dark:bg-zinc-900/50 border border-zinc-100 dark:border-zinc-900/50 flex flex-col items-center justify-center text-center">
-                   <span class="text-2xl sm:text-3xl font-display font-bold text-emerald-500">7</span>
+                   <span class="text-2xl sm:text-3xl font-display font-bold text-emerald-500">6</span>
                    <span class="text-[10px] sm:text-xs font-mono text-zinc-500 dark:text-zinc-400 mt-1 uppercase tracking-wider">Years Exp</span>
                  </div>
                  <div class="p-4 rounded-xl bg-zinc-50 dark:bg-zinc-900/50 border border-zinc-100 dark:border-zinc-900/50 flex flex-col items-center justify-center text-center">
                    <span class="text-2xl sm:text-3xl font-display font-bold text-emerald-500">15+</span>
                    <span class="text-[10px] sm:text-xs font-mono text-zinc-500 dark:text-zinc-400 mt-1 uppercase tracking-wider">Projects</span>
                  </div>
-               </div>
+              </div>
+
+
+              <h1 class="py-8 font-bold uppercase">Resume & Cover Letter</h1>
+              <div class="grid grid-2 ">
+                 <div class="group rounded-xl border border-gray-500 p-4">
+                   <div class="flex items-start justify-between gap-3">
+                     <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-500/10 text-emerald-500">
+                       <FileText class="h-5 w-5" />
+                     </div>
+                     <span class="rounded-full border border-emerald-500/20 px-2 py-1 text-[9px] font-mono uppercase tracking-wider text-emerald-500">PDF</span>
+                   </div>
+                   <div class="mt-4">
+                     <p class="font-display text-sm font-semibold text-zinc-900 dark:text-white">Resume</p>
+                     <p class="mt-1 text-xs text-zinc-500 dark:text-zinc-400">Experience, skills, and selected work.</p>
+                   </div>
+                   <a
+                     href="/files/HongMenghort_CV.pdf"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     aria-label="View resume PDF"
+                     class="mt-4 inline-flex items-center gap-1 text-xs font-mono uppercase tracking-wider transition-colors p-2 rounded-lg bg-emerald-500/10 text-emerald-500 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-gray-500"
+                   >
+                     View CV <ExternalLink class="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+                   </a>
+                 </div>
+                 <div class="group rounded-xl border border-gray-500 p-4 ">
+                   <div class="flex items-start justify-between gap-3">
+                     <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-500/10 text-emerald-500">
+                       <FileText class="h-5 w-5" />
+                     </div>
+                     <span class="rounded-full border border-emerald-500/20 px-2 py-1 text-[9px] font-mono uppercase tracking-wider text-emerald-500">PDF</span>
+                   </div>
+                   <div class="mt-4">
+                     <p class="font-display text-sm font-semibold text-zinc-900 dark:text-white">Cover Letter</p>
+                     <p class="mt-1 text-xs text-zinc-500 dark:text-zinc-400">A little more about my approach and fit.</p>
+                   </div>
+                   <a
+                     href="/files/Hong%20Menghort_CL.pdf"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                     aria-label="View cover letter PDF"
+                     class="mt-4 inline-flex items-center gap-1 text-xs font-mono uppercase tracking-wider transition-colors p-2 rounded-lg bg-emerald-500/10 text-emerald-500 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-gray-500"
+                   >
+                     View CL <ExternalLink class="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+                   </a>
+                 </div>
+              </div>
              </div>
            </div>
    
@@ -157,7 +204,6 @@ const mapLink = getCurrentMapLink;
     </div>
   </section>
 
-    <JourneyComponent :is-show-filter="props.isDisplayWorkSection"/>
+  <JourneyComponent :is-show-filter="props.isDisplayWorkSection"/>
 
-  
 </template>

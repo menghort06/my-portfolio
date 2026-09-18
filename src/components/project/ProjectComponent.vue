@@ -17,7 +17,8 @@ const activeProjectFilter = ref<'all' | 'vue' | 'react' | 'angular' | 'ui/ux'>('
 const projectFilters = [
   { id: 'all', label: 'All' },
   { id: 'angular', label: 'Angular' },
-  { id: 'vue', label: 'Vue & Nuxt' },
+  { id: 'vue', label: 'Vue' },
+  { id: 'react', label: 'React' },
   { id: 'ui/ux', label: 'UI/UX' }
 ];
 
