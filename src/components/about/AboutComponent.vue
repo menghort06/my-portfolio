@@ -144,6 +144,28 @@ const mapLink = getCurrentMapLink;
                      View CL <ExternalLink class="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
                    </a>
                  </div>
+
+                  <div class="group rounded-xl border border-gray-500 p-4 ">
+                    <div class="flex items-start justify-between gap-3">
+                      <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-500/10 text-emerald-500">
+                        <FileText class="h-5 w-5" />
+                      </div>
+                      <span class="rounded-full border border-emerald-500/20 px-2 py-1 text-[9px] font-mono uppercase tracking-wider text-emerald-500">PDF</span>
+                    </div>
+                    <div class="mt-4">
+                      <p class="font-display text-sm font-semibold text-zinc-900 dark:text-white">Support Document</p>
+                      <p class="mt-1 text-xs text-zinc-500 dark:text-zinc-400">Certificate of the achievement.</p>
+                    </div>
+                    <a
+                      href="/files/HongMenghort_Doc.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="View cover letter PDF"
+                      class="mt-4 inline-flex items-center gap-1 text-xs font-mono uppercase tracking-wider transition-colors p-2 rounded-lg bg-emerald-500/10 text-emerald-500 hover:text-emerald-600 dark:hover:text-emerald-400 hover:bg-gray-500"
+                    >
+                      View SD <ExternalLink class="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5" />
+                    </a>
+                 </div>
               </div>
              </div>
            </div>
