@@ -12,13 +12,15 @@ const prop = defineProps({
   }
 })
 const router = useRouter();
-const activeProjectFilter = ref<'all' | 'vue' | 'react' | 'angular' | 'ui/ux'>('all');
+const activeProjectFilter = ref<'all' | 'vue' | 'react' | 'angular' | 'nest' | 'postgres' | 'ui/ux'>('all');
 
 const projectFilters = [
   { id: 'all', label: 'All' },
   { id: 'angular', label: 'Angular' },
   { id: 'vue', label: 'Vue' },
   { id: 'react', label: 'React' },
+  { id: 'nest', label: 'NestJS' },
+  { id: 'postgres', label: 'PostgreSQL' },
   { id: 'ui/ux', label: 'UI/UX' }
 ];
 
@@ -34,6 +36,12 @@ const filteredProjects = computed(() => {
     }
     if (filter === 'angular') {
       return project.techStack.some(t => t.toLowerCase().includes('angular'));
+    }
+    if (filter === 'nest') {
+      return project.techStack.some(t => t.toLowerCase().includes('nest'));
+    }
+    if (filter === 'postgres') {
+      return project.techStack.some(t => t.toLowerCase().includes('postgres'));
     }
     if (filter === 'ui/ux') {
       return project.techStack.some(t => t.toLowerCase().includes('ui/ux'));

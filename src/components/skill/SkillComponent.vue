@@ -12,11 +12,12 @@ const prop = defineProps({
 });
 
 const router = useRouter();
-type SkillCategory = 'frontend' | 'ui' | 'tool' | 'other';
+type SkillCategory = 'frontend' | 'ui' | 'tool' | 'backend' | 'other';
 
 const categoryLabelMap: Record<string, string> = {
   frontend: 'Frontend',
   ui: 'UI / Style',
+  backend: 'Backend',
   tool: 'Tool',
   other: 'Other'
 };
@@ -24,6 +25,7 @@ const categoryLabelMap: Record<string, string> = {
 const categoryAccentMap: Record<string, string> = {
   frontend: 'border-emerald-400/25 hover:border-emerald-400/50 hover:shadow-[0_0_35px_rgba(16,185,129,0.16)]',
   ui: 'border-fuchsia-400/25 hover:border-fuchsia-400/50 hover:shadow-[0_0_35px_rgba(192,132,252,0.16)]',
+  backend: 'border-sky-400/25 hover:border-sky-400/50 hover:shadow-[0_0_35px_rgba(56,189,248,0.16)]',
   tool: 'border-amber-400/25 hover:border-amber-400/50 hover:shadow-[0_0_35px_rgba(245,158,11,0.16)]',
   other: 'border-sky-400/25 hover:border-sky-400/50 hover:shadow-[0_0_35px_rgba(56,189,248,0.16)]'
 };
@@ -37,14 +39,14 @@ const categoryDescriptionMap: Record<string, string> = {
 
 const groupedSkills = computed(() => {
   if (prop.isDisplaySomeCategory) {
-    const categories: SkillCategory[] = ['frontend', 'ui', 'tool', 'other'];
+    const categories: SkillCategory[] = ['frontend', 'backend', 'ui', 'tool', 'other'];
     return categories.map(category => ({
       category,
       items: skills.filter(skill => skill.category === category).slice(0, 5)
     })).filter(group => group.items.length > 0);
   }
 
-  const categories: SkillCategory[] = ['frontend', 'ui', 'tool', 'other'];
+  const categories: SkillCategory[] = ['frontend', 'backend', 'ui', 'tool', 'other'];
   return categories.map(category => ({
     category,
     items: skills.filter(skill => skill.category === category)
@@ -131,7 +133,5 @@ const getCategoryDescription = (category: string) => categoryDescriptionMap[cate
         </div>
       </div>
     </div>
-
-    
   </section>
 </template>

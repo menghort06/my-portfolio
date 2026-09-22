@@ -33,7 +33,7 @@ const navigateTo = (url: string) => {
             HONG<span class="text-emerald-500"> MENGHORT</span>
           </span>
           <p class="text-xs font-mono text-zinc-400 dark:text-zinc-500 mt-1">
-            Senior Frontend Engineer
+            Senior Web Developer | Team Lead
           </p>
         </div>
 

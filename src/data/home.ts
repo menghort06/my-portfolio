@@ -4,9 +4,9 @@ const mapLink = getCurrentMapLink.value;
 export const personalInfo = {
   name: "HONG MENGHORT",
   photo: "",
-  title: "Senior Frontend",
+  title: "Senior Web Developer",
   aboutText:
-    "I am a passionate Frontend with over 6 years of experience building high quality, responsive web interfaces. I specialize in modern JavaScript frameworks (Vue, React, Angular) and utility first styling (Tailwind CSS). My goal is to build digital products that combine beautiful, fluid design with solid engineering and optimal performance.",
+    "I am a passionate Web Developer with over 6 years of experience building high quality, responsive web interfaces. I specialize in modern JavaScript frameworks (Vue, React, Angular) and utility first styling (Tailwind CSS). My goal is to build digital products that combine beautiful, fluid design with solid engineering and optimal performance.",
   resumeUrl: "#",
   description:
     "With hands on experience in building enterprise systems and UI focused digital products, I specialize in developing scalable, maintainable, and high performance frontend solutions. I work extensively with Angular, Vue, and modern frontend ecosystems to transform complex business requirements into clean, intuitive, and accessible user interfaces. My focus is on writing structured, reusable code and delivering seamless user experiences that perform reliably across different devices and environments.",
