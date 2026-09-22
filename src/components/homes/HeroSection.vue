@@ -37,7 +37,7 @@ import photo from "@/assets/images/menghort-photo.png"
 
       <div class="portfolio-panel mb-10">
         <h2 class="text-2xl text-left sm:text-4xl font-display font-medium text-zinc-600 dark:text-zinc-400 mb-6 sm:mb-8">
-          I create <span class="text-emerald-500 dark:text-emerald-400 font-semibold">{{ personalInfo.title }}</span> solutions
+          <span class="text-emerald-500 dark:text-emerald-400 font-semibold">{{ personalInfo.title }}</span>
         </h2>
   
         <div class="flex flex-col mb-4 text-base text-justify  text-zinc-500 dark:text-zinc-400 mx-auto leading-relaxed"

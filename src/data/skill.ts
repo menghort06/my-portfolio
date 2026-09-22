@@ -30,6 +30,12 @@ export const skills: Skill[] = [
   { name: "ng select", category: "ui", icon: "NgSelectIcon" },
   { name: "Lucide", category: "ui", icon: "LucideIcon" },
   { name: "Swiper", category: "ui", icon: "SwiperIcon" },
+  // Backend
+  { name: "NestJS", category: "backend", icon: "NestJSIcon" },
+  { name: "Node.js", category: "backend", icon: "NodeJSIcon" },
+  { name: "SQL", category: "backend", icon: "SQLIcon" },
+  { name: "PostgreSQL", category: "backend", icon: "PostgreSQLIcon" },
+  { name: "MySQL", category: "backend", icon: "MySQLIcon" },
 
 
   // Tools
@@ -58,20 +64,8 @@ export const skills: Skill[] = [
   { name: "C++", category: "other", icon: "CppIcon" },
   { name: "C#", category: "other", icon: "CSharpIcon" },
   { name: "Java", category: "other", icon: "JavaIcon" },
-  { name: "Android", category: "other", icon: "AndroidIcon" },
   { name: "Flutter", category: "other", icon: "FlutterIcon" },
   { name: "Dart", category: "other", icon: "DartIcon" },
-  { name: "Jquery", category: "other", icon: "JQueryIcon" },
-  { name: "PHP", category: "other", icon: "PHPIcon" },
-  { name: "SQL", category: "other", icon: "SQLIcon" },
-  { name: "MySQL", category: "other", icon: "MySQLIcon" },
-  { name: "PostgreSQL", category: "other", icon: "PostgreSQLIcon" },
-  { name: "MongoDB", category: "other", icon: "MongoDBIcon" },
-  { name: "Node.js", category: "other", icon: "NodeJSIcon" },
-  { name: "Express.js", category: "other", icon: "ExpressJSIcon" },
-  { name: "nestJS", category: "other", icon: "NestJSIcon" },
-  { name: "Microsoft Access", category: "other", icon: "MSAccessIcon" },
-  { name: "Power BI", category: "other", icon: "PowerBIIcon" },
 ];
 
 export const skillsSection = {

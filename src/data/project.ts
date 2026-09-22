@@ -22,7 +22,6 @@ import chakraImg from "@/assets/images/chakra.jpg";
 import maffImg from "@/assets/images/maff.jpg";
 import coreFrontendImg from "@/assets/images/core-frontend.png";
 import coreFrontendHttpImg from "@/assets/images/core-frontend-http.png";
-import portfolioImg from "@/assets/images/portfolio.png";
 import moeWebsiteMockupImg from "@/assets/images/moe-website-mockup.png";
 import moeWebportalMockupImg from "@/assets/images/moe-webportal-mockup.png";
 import wpmsWebportalMockupImg from "@/assets/images/wpms-webportal-mockup.png";
@@ -30,6 +29,8 @@ import smsWebportalMockupImg from "@/assets/images/sms-webportal-mockup.png";
 import smsWebsiteMockupImg from "@/assets/images/sms-website-mockup.png";
 import dpsWebportalMockupImg from "@/assets/images/dps-webportal-mockup.png";
 import maffWebportalMockupImg from "@/assets/images/maff-webportal-mockup.png";
+import portfolioDBImg from "@/assets/images/portfolio-db.png";
+import portfolioAPIImg from "@/assets/images/portfolio-api.png";
 
 export const projects: Project[] = [
   {
@@ -391,6 +392,32 @@ export const projects: Project[] = [
     year: 2026,
     manageStack: "Developed Entire Project",
     url: 'https://www.figma.com/proto/g7xTUiZWd3VHPijFGCGDt2/MAFF?node-id=25-452&p=f&t=sSXbOXFo1OyklM7f-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=25%3A452'
+  },
+  {
+    id: "30",
+    name: "Portfolio Database",
+    description:
+      "Designed and implemented a comprehensive PostgreSQL database schema to power the dynamic portfolio application. The architecture includes structured tables for managing projects, skills, user profiles, experience, and contact details, ensuring optimal data integrity, efficient querying, and seamless integration with the backend API.",
+    category: "backend",
+    techStack: ["postgres"],
+    isFeatured: false,
+    photo: portfolioDBImg,
+    year: 2026,
+    manageStack: "Developed Entire Project",
+    url: ''
+  },
+  {
+    id: "31",
+    name: "Portfolio API",
+    description:
+      "Designed and developed a robust backend API using NestJS to serve the dynamic portfolio application. The RESTful API provides secure and efficient endpoints for managing projects, skills, and user profiles, featuring data validation, structured routing, and seamless integration with the PostgreSQL database.",
+    category: "backend",
+    techStack: ["nest"],
+    isFeatured: false,
+    photo: portfolioAPIImg,
+    year: 2026,
+    manageStack: "Developed Entire Project",
+    url: ''
   }
 ];
 
